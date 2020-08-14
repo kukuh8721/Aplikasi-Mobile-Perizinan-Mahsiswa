@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Satuminggu">
+
+    <ImageView
+        android:id="@+id/imgsatuminggu"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/satuminggu"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="30dp"/>
+
+    <TableLayout
+        android:layout_below="@id/imgsatuminggu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Syarat "
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Syarat untuk melalukan perizinan selama satu minggu adalah mendapatkan izin dari Keapala Prodi dan Dekan Fakultas dengan syarat tersebut maka mahasiswa baru boleh melakukan izin"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:layout_marginLeft="15sp"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ketentuan "
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ketentuan dalam perizinan satu minggu adalah perizinan tersebut dari instatnsi UNIDA Gontor contohnya HMP, Prodi, Senat, Dema, Dll. Jika itu izin pribadi maka harus mempunya alasan yang syr'i untuk izin dan jika itu meninggalkan kampus maka harus mendaptkan persetujuan Direktorat Kepengasuhan"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:layout_marginLeft="15sp"/>
+
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

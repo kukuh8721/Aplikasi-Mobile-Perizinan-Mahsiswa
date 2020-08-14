@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Infoper">
+
+    <ImageView
+        android:id="@+id/infor_perizinan"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/satuhari"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="10dp"/>
+
+    <ImageView
+        android:id="@+id/perizinan"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/tigahari"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="150dp"/>
+    <ImageView
+        android:id="@+id/tentang_kami"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="310dp"
+        android:src="@drawable/satuminggu"/>
+
+    <ImageView
+        android:id="@+id/kontak_kami"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/satubulan"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="310dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Form">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Form Peizinan"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="30dp"
+            android:textAlignment="center"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"/>
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/et_bg"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:inputType="text"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NIM"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"/>
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/et_bg"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:inputType="text"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kampus"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"/>
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/et_bg"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:inputType="text"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fakultas"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"/>
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/et_bg"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:inputType="text"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Program Studi"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"/>
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/et_bg"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:inputType="text"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tahun Akademik"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"/>
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/et_bg"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:inputType="number"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semester"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"/>
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/et_bg"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:inputType="number"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Acara"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"/>
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/et_bg"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:inputType="text"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mulai Perizinan"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"/>
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/et_bg"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:inputType="text"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sampai Dengan"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"/>
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/et_bg"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:inputType="text"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_form"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_form"
+            android:text="Kirim Data"
+            android:background="@drawable/btn_bg"
+            android:textColor="@color/white"
+            android:paddingRight="60dp"
+            android:paddingLeft="60dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:layout_marginTop="70dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>

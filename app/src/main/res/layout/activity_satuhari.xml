@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".Satuhari">
+
+    <ImageView
+        android:id="@+id/imgsatuhari"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/satuhari"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="40dp"/>
+
+    <TableLayout
+        android:layout_below="@id/imgsatuhari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Syarat "
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Syarat untuk melalukan perizinan selama satu hari adalah dengan memberikan KTM kepada BAAK yang menandakan bahwa yang izin adalah mahasiswa UNIDA Gontor"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:layout_marginLeft="15sp"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ketentuan "
+                android:textSize="20sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ketentuan dalam perizinan satu hari mempunyai alasan yang syar'i untuk meninggalkan perkuliahan, seperti sakit, mengikuti acara, dll"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:layout_marginLeft="15sp"/>
+
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
